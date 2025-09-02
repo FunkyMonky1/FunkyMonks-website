@@ -1,0 +1,64 @@
+body {
+    background-image: url("leaves.webp");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size:cover;
+    font-family: "consolas",sans-serif;
+    text-align: center;
+}
+h1 {
+    font-size: 60px;
+    color: black;
+    text-align: center;
+    font-family: "press Start 2P";
+    
+}
+p {
+  text-align: center;
+  
+}
+address {
+    text-align: center;
+    margin-top: 20px;
+    font-style: italic;
+}
+.skills{
+    display: inline-block;  
+    text-align: left;
+    list-style-position: inside;       
+    padding-left: 1.2em;    
+    margin: 0 auto 1rem;
+}
+a:link{
+    color:black;
+}
+a:visited{
+    color:gray;
+}
+a:hover{
+    color:blue;
+}
+h1 + a,
+h1 + a + a {
+  position: fixed;
+  top: 12px;
+  z-index: 1000;
+}
+
+h1 + a { right: 56px; }
+
+
+h1 + a + a { right: 16px; }
+
+.fa-envelope{
+    color:black;
+    font-size: 32px;
+    margin: 0 10px;
+
+}
+.fa-github{
+    color:black;
+    font-size: 32px;
+    margin: 0 10px;
+}
